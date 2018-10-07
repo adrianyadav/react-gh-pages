@@ -2,7 +2,7 @@
   "name": "react-gh-pages",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://adrianyadav.github.io/react-gh-pages",
+  "homepage": "http://adrianyadav.github.io",
   "dependencies": {
     "node-sass": "^4.9.3",
     "react": "^16.5.2",
