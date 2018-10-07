@@ -1,0 +1,47 @@
+.features {
+  .feature {
+    svg {
+      display: block;
+      text-align: center;
+      font-size: 50px;
+      margin: 1rem auto;
+      height: 50px;
+      color: white;
+    }
+    .feature-heading {
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    .feature-text {
+      text-align: center;
+    }
+  }
+}
+.hexagon {
+  position: relative;
+  width: 100px;
+  height: 57.74px;
+  background-color: #5a99b0;
+  margin: 3rem auto;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 28.87px solid #5a99b0;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.87px solid #5a99b0;
+}

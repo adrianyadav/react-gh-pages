@@ -1,0 +1,27 @@
+@import "../scss/Colours";
+
+nav.main-nav {
+  background: $nav-background;
+  height: 50px;
+  border-bottom: 3px solid #04c2c9;
+  width: 100%;
+  ul {
+    margin-bottom: 0px;
+
+    li {
+      list-style-type: none;
+      display: inline;
+      padding: 12.5px 1.25rem;
+      text-align: left;
+
+      a {
+        width: 100%;
+        color: white;
+        text-transform: uppercase;
+      }
+      .active {
+        color: $light-red;
+      }
+    }
+  }
+}
