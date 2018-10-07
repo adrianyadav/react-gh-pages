@@ -7,21 +7,18 @@ class Nav extends Component {
       <nav className="main-nav flex">
         <ul>
           <li>
-            <a className="active" href="">
+            <a className="active" href="#home">
               Home
             </a>
           </li>
           <li>
-            <a href="">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="">Portfolio</a>
+            <a href="#projects">Portfolio</a>
           </li>
           <li>
-            <a href="">Blog</a>
-          </li>
-          <li>
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>

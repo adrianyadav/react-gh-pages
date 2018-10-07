@@ -1,0 +1,39 @@
+@import "../scss/Colours.scss";
+
+#contact {
+  background: #252934;
+  h2 {
+    color: white;
+  }
+  p {
+    color: $light-blue;
+  }
+  .header-bar {
+    background-color: white;
+  }
+  form {
+    min-width: 500px;
+    .contact-button {
+      padding: 1rem 2rem;
+      font-size: 1rem;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      outline: none;
+      border: 0;
+      padding: 10px 15px;
+      background: #1e242c;
+      font-size: 12pt;
+      margin-bottom: 3px;
+      color: #fff;
+    }
+    textarea {
+      min-height: 100px;
+      margin-bottom: 10px;
+    }
+  }
+}
