@@ -4,8 +4,11 @@ import "./Contact.scss";
 class Contact extends Component {
   render() {
     return (
-      <div className="flex-row">
-        <form action="https://formspree.io/adrianyadav@gmail.com" method="POST">
+      <div className="flex-row contact-flex">
+        <form
+          class="flex-large"
+          action="https://formspree.io/adrianyadav@gmail.com"
+          method="POST">
           <input placeholder="Name" type="text" name="name" required="" />
           <input
             placeholder="Enter email"

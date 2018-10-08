@@ -7,12 +7,18 @@
   }
   p {
     color: $light-blue;
+    margin-bottom: 2rem;
   }
   .header-bar {
     background-color: white;
   }
+  .contact-flex {
+    width: 100%;
+  }
   form {
-    min-width: 500px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
     .contact-button {
       padding: 1rem 2rem;
       font-size: 1rem;

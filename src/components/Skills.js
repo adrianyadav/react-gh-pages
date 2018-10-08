@@ -1,15 +1,6 @@
 import React, { Component } from "react";
-import IconAmazonwebservices from "react-devicon/amazonwebservices/original-wordmark";
 
 import "./Skills.scss";
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaReact,
-  FaJs,
-  FaPhp,
-  FaDatabase
-} from "react-icons/fa";
 
 class Skills extends Component {
   render() {
@@ -43,7 +34,7 @@ class Skills extends Component {
 class Skill extends React.Component {
   render() {
     return (
-      <div className="skill flex-large">
+      <div className="skill flex-large vertical-center">
         <i class={this.props.iconName} />
       </div>
     );
