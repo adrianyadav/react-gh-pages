@@ -75,8 +75,8 @@ class Home extends Component {
                     Rook Studio
                   </a>
                   .<br />I specialise in creating frontend solutions which make
-                  use of cutting edge technologies that prioritize
-                  accessibility, performance as well as usability.
+                  use of cutting edge technologies and prioritize accessibility,
+                  performance as well as usability.
                   <br />
                   <a
                     subject="My Idea"
@@ -117,8 +117,9 @@ class Home extends Component {
                 />
               </Fade>
             </div>
-
-            <p>Have a question or want to work together?</p>
+            <Fade bottom>
+              <p>Have a question or want to work together?</p>
+            </Fade>
 
             <Contact />
           </div>
