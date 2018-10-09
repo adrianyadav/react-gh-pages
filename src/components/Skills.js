@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import Fade from "react-reveal/Fade";
 import "./Skills.scss";
 
 class Skills extends Component {
@@ -34,9 +34,11 @@ class Skills extends Component {
 class Skill extends React.Component {
   render() {
     return (
-      <div className="skill flex-large vertical-center">
-        <i class={this.props.iconName} />
-      </div>
+      <Fade right>
+        <div className="skill flex-large vertical-center">
+          <i className={this.props.iconName} />
+        </div>
+      </Fade>
     );
   }
 }

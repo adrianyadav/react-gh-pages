@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./Projects.scss";
 
+import Fade from "react-reveal/Fade";
+
 class Projects extends Component {
   render() {
     return (
@@ -17,15 +19,19 @@ class Project extends React.Component {
   render() {
     return (
       <div className="flex-large card">
-        <div class="card-info">
-          <div class="text vertical-center">
-            <div class="project-name">
-              Roambi
-              <div class="highlight">Pure JavaScript</div>
+        <div className="card-info">
+          <div className="text vertical-center">
+            <div className="project-name">
+              <Fade when={false} top>
+                Roambi
+              </Fade>
+              <div className="highlight">Pure JavaScript</div>
             </div>
           </div>
-          <button class="button learn-more-button" id="roambi">
-            LEARN MORE
+          <button className="button learn-more-button" id="roambi">
+            <Fade when={false} bottom>
+              LEARN MORE
+            </Fade>
           </button>
         </div>
       </div>

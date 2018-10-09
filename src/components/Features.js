@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Features.scss";
 import { FaBolt, FaLaptop, FaLightbulb, FaRocket } from "react-icons/fa";
+import Fade from "react-reveal/Fade";
 
 class Features extends Component {
   render() {
@@ -38,9 +39,11 @@ class Feature extends React.Component {
   render() {
     return (
       <div className="feature flex-large">
-        <div className="hexagon">{this.props.iconName}</div>
-        <div className="feature-heading">{this.props.featureHeading}</div>
-        <p class="feature-text">{this.props.featureText}</p>
+        <Fade left>
+          <div className="hexagon">{this.props.iconName}</div>
+          <div className="feature-heading">{this.props.featureHeading}</div>
+          <p className="feature-text">{this.props.featureText}</p>
+        </Fade>
       </div>
     );
   }

@@ -2,6 +2,7 @@
 
 #contact {
   background: #252934;
+  padding-bottom: 2rem;
   h2 {
     color: white;
   }
@@ -33,13 +34,21 @@
       border: 0;
       padding: 10px 15px;
       background: #1e242c;
-      font-size: 12pt;
+      font-size: 0.85rem;
       margin-bottom: 3px;
       color: #fff;
     }
     textarea {
       min-height: 100px;
       margin-bottom: 10px;
+      font-size: 0.85rem;
+    }
+    .contact-button {
+      margin-top: 0.5rem;
+    }
+    ::placeholder {
+      font-size: 1rem;
+      font-family: "Raleway", sans-serif;
     }
   }
 }

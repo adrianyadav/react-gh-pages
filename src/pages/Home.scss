@@ -5,6 +5,10 @@
   font-size: 16px;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -48,8 +52,9 @@ button + div {
   height: 100vh;
   background-size: cover;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://images.unsplash.com/photo-1530374260450-4bd19102f63d?ixlib=rb-0.3.5…EyMDd9&s=73cbe4b…&auto=format&fit=crop&w=1500&q=80)");
+    url("../assets/img/developer-background.jpg");
   background-position: center;
+  background-repeat: no-repeat;
 
   flex-direction: column;
 
@@ -58,10 +63,7 @@ button + div {
     font-weight: 300;
     font-size: 2.5rem;
   }
-  .author {
-    color: $light-red;
-    font-weight: 500;
-  }
+
   .jobTitle {
     color: $light-blue;
   }
@@ -104,7 +106,7 @@ button,
 [type="submit"],
 [type="reset"],
 [type="button"] {
-  border: 2px solid white;
+  border: 1px solid white;
   background: transparent;
   color: white;
   padding: 1rem 2.25rem;
@@ -147,6 +149,15 @@ button,
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.highlight {
+  color: $light-red;
+  font-weight: 500;
+}
+
+.highlight-alt {
+  color: $light-blue;
 }
 
 // Mobile queries
