@@ -1,16 +1,15 @@
 {
-  "main.css": "/react-gh-pages/static/css/main.e94e8b63.chunk.css",
-  "main.js": "/react-gh-pages/static/js/main.ed68f98e.chunk.js",
-  "main.js.map": "/react-gh-pages/static/js/main.ed68f98e.chunk.js.map",
+  "main.css": "/react-gh-pages/static/css/main.f6c01f3c.chunk.css",
+  "main.js": "/react-gh-pages/static/js/main.de3f659e.chunk.js",
+  "main.js.map": "/react-gh-pages/static/js/main.de3f659e.chunk.js.map",
   "static/js/1.4222ddea.chunk.js": "/react-gh-pages/static/js/1.4222ddea.chunk.js",
   "static/js/1.4222ddea.chunk.js.map": "/react-gh-pages/static/js/1.4222ddea.chunk.js.map",
   "runtime~main.js": "/react-gh-pages/static/js/runtime~main.346eb3ee.js",
   "runtime~main.js.map": "/react-gh-pages/static/js/runtime~main.346eb3ee.js.map",
-  "static/css/main.e94e8b63.chunk.css.map": "/react-gh-pages/static/css/main.e94e8b63.chunk.css.map",
-  "static/media/adrianyadav.jpg": "/react-gh-pages/static/media/adrianyadav.69452738.jpg",
-  "static/media/Projects.scss": "/react-gh-pages/static/media/upaged.a92cb505.png",
   "static/media/Home.scss": "/react-gh-pages/static/media/developer-background.86067a31.jpg",
+  "static/media/Projects.scss": "/react-gh-pages/static/media/ioof-fb.c684ede3.png",
+  "static/css/main.f6c01f3c.chunk.css.map": "/react-gh-pages/static/css/main.f6c01f3c.chunk.css.map",
   "index.html": "/react-gh-pages/index.html",
-  "precache-manifest.de34dcea1f387cf78e232daddb5785af.js": "/react-gh-pages/precache-manifest.de34dcea1f387cf78e232daddb5785af.js",
+  "precache-manifest.3c5c85f4267e7ef5937fd3142826c3e5.js": "/react-gh-pages/precache-manifest.3c5c85f4267e7ef5937fd3142826c3e5.js",
   "service-worker.js": "/react-gh-pages/service-worker.js"
 }
