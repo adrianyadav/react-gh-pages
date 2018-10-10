@@ -80,8 +80,8 @@ class Home extends Component {
                   <br />
                   <a
                     subject="My Idea"
-                    href="mailto:adrianyadav@gmail.com"
-                    class="highlight-alt">
+                    href="mailto:adrianyadav&#64;gmail.com"
+                    className="highlight-alt">
                     Let's make something awesome!
                   </a>
                 </p>

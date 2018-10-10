@@ -6,9 +6,10 @@ import Fade from "react-reveal/Fade";
 class Projects extends Component {
   render() {
     return (
-      <div className="flex-row">
+      <div className="flex-row projects-container">
         <Project projectName="uPaged" projectLanguage="Landing page" />
         <Project projectName="IOOF Alliances" projectLanguage="Landing page" />
+        <Project projectName="IOOF Federal Budget" projectLanguage="Website" />
         <Project projectName="Eureka" projectLanguage="Website" />
       </div>
     );
@@ -32,22 +33,22 @@ class Project extends React.Component {
   render() {
     return (
       <div
-        className="flex-large card"
+        className="flex-small card"
         onMouseEnter={this.mouseEnter}
         onMouseLeave={this.mouseLeave}>
         <div className="card-info">
-          <Fade top>
-            <div className="text vertical-center">
-              <div className="project-name">
-                {this.props.projectName}
-                <div className="highlight">{this.props.projectLanguage}</div>
-              </div>
-            </div>
-          </Fade>
+          <div className="horizontal-center project-meta">
+            <Fade when={this.state.isMouseInside} top>
+              <div className="project-name">{this.props.projectName}</div>
+              <div className="highlight">{this.props.projectLanguage}</div>
+            </Fade>
+          </div>
 
-          <Fade bottom>
-            <button className="button learn-more-button">LEARN MORE</button>
-          </Fade>
+          <div className="horizontal-center learn-more-container">
+            <Fade when={this.state.isMouseInside} bottom>
+              <button className="button learn-more-button">LEARN MORE</button>
+            </Fade>
+          </div>
         </div>
       </div>
     );

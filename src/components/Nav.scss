@@ -1,9 +1,17 @@
 @import "../scss/Colours";
 
+.nav-fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  border: 0;
+}
+
 nav.main-nav {
   background: $nav-background;
   height: 50px;
-  border-bottom: 3px solid #04c2c9;
+  // border-bottom: 3px solid #04c2c9;
   width: 100%;
   ul {
     margin-bottom: 0px;
@@ -34,7 +42,7 @@ nav.main-nav {
       li {
         list-style-type: none;
         display: inline;
-        padding: 0.8rem 0.9rem;
+        padding: 0.4rem 0.4rem;
       }
     }
   }
