@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import SocialIcons from "../components/SocialIcons";
 import "./Footer.scss";
 export default class Footer extends Component {
   render() {
@@ -10,6 +11,7 @@ export default class Footer extends Component {
               Adrian Yadav
               <span className="highlight-alt">&nbsp; &copy; 2018</span>
             </p>
+            <SocialIcons />
           </div>
         </div>
       </footer>

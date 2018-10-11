@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ScrollspyNav from "react-scrollspy-nav";
 import "./Nav.scss";
 
 // Credit to https://gist.github.com/agm1984 for this
@@ -44,30 +45,32 @@ class Nav extends Component {
   };
 
   render() {
-    // !! coerces value to be a Boolean
-    // we want it to be true or false (true if scrollPositionY > 0)
-    // it works because scrollPositionY === 0 is falsy
     const isScrolling = !!this.state.scrollPositionY;
+
     return (
       <div className={isScrolling ? "nav-fixed-top" : "nav"}>
-        <nav className="main-nav flex">
-          <ul>
-            <li>
-              <a className="active" href="#home">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#projects">Portfolio</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        </nav>
+        <ScrollspyNav
+          scrollTargetIds={["home", "about", "projects", "contact"]}
+          activeNavClass="active"
+          scrollDuration="500"
+          headerBackground="true">
+          <nav class="main-nav flex">
+            <ul>
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#projects">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </ScrollspyNav>
       </div>
     );
   }

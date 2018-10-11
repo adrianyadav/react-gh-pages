@@ -6,6 +6,8 @@ import Features from "../components/Features";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
+import SocialIcons from "../components/SocialIcons";
+
 import Footer from "../components/Footer";
 import { FaArrowRight } from "react-icons/fa";
 import Particles from "react-particles-js";
@@ -22,7 +24,7 @@ class Home extends Component {
   render() {
     return (
       <main>
-        <div id="home" className="vertical-center intro">
+        <div id="home" class="intro vertical-center">
           <h1>
             <Typing key={"gg"} speed={50}>
               Hi, I'm <span className="highlight">Adrian Yadav</span>. <br />{" "}
